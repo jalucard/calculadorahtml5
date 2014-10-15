@@ -1,0 +1,137 @@
+body
+{
+	background-color: rgba(87, 166, 255, 0.1);
+	font-family: "Open Sans", Arial;
+	font-size: 14px;
+	text-align: center;
+}
+
+footer
+{
+	background-color: CadetBlue;
+	font-style: italic;
+	padding: 0.1em 0;
+}
+
+footer p
+{
+	display: inline-block;
+}
+
+header
+{
+	background: url("../images/HTML5.png") no-repeat 2%,
+				url("../images/CSS3.png") no-repeat 10%,
+				url("../images/js.png") no-repeat 18%;
+	background-color: CadetBlue;
+	background-size: 47px, 47px, 47px;
+	box-shadow: rgba(0,0,0,0.4) 1px 5px 10px;
+	padding: 0.1em 0;
+	width: 100%;
+}
+
+header h1 
+{
+	font-size: 3em;
+	margin: 0.5em 0;
+	text-shadow: rgba(0, 0, 0, 0.5) 2px 4px 5.2px;
+}
+
+h3
+{
+	text-align: center;
+}
+
+#botones
+{
+	margin: 0.5em 0 0 1.73em;
+	width: 80%;
+}
+
+#botones ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#botones li
+{
+	display: inline-block;
+	margin: 1em 0;
+}
+
+#botones li input
+{
+	background: silver;
+	border: none;
+	border-radius: 0.3em;
+	color: black;
+	margin: 0 0.5em;
+	padding: 0.3em 1em;
+	text-decoration: none;
+}
+
+#botones li input:hover
+{
+	box-shadow:inset 0 0 7px #000000;
+}
+
+#calculadora
+{
+	border: 10px solid silver;
+	background-color: DimGrey;
+	border-radius: 0.5em;
+	font-size: 1.7em;
+	margin: 1em 0;
+	padding: 1em 0;
+	width: 28%;
+}
+
+#display
+{
+	background-color: LightGreen;
+	border: 1px solid black;
+	border-radius: 0.4em;
+	box-shadow:inset 0 0 7px #000000;
+	height: 2.5em;
+	text-align: right;
+}
+
+#icoface, #icotwit
+{
+	cursor: pointer;
+	height: 2.5em;
+	margin: 0 0.4em;
+	width: 2.5em;
+}
+
+#presentacion, #calculadora
+{
+	display: inline-block;
+	vertical-align: top;
+}
+
+#presentacion
+{	
+	background-color: white;
+	box-shadow: rgba(0,0,0,0.5) 5px 5px 15px;
+	font-size: 1.2em;
+	margin: 8em 5em 1em 0;
+	padding: 1em;
+	transition: all 0.7s ease;
+	-webkit-transition: all 0.7s ease;
+	-moz-transition: all 0.7s ease;
+	text-align: justify;
+	width: 40%;
+}
+
+#presentacion:hover
+{
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+}
+
+
+
